@@ -9,5 +9,4 @@ def descending_order(num):
 		a = "".join(list1)
 	return a	
 		
-
 print(descending_order(14132412312))
