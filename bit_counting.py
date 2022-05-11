@@ -4,4 +4,14 @@
 
 
 def count_bits(n):
-    return
+
+    count_ones = 0
+    binary = f'{n:08b}'
+    new_list = list(binary)
+    for x in new_list:
+        if x == '1':
+            count_ones += 1
+
+    return count_ones
+    
+print(count_bits(1234))
